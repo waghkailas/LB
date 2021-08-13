@@ -1,0 +1,14 @@
+while(temp!=NULL)    //temp->NULL  Display &count
+{
+    temp=temp->next;
+}
+
+while(temp->next!=NULL)  //temp->400    insertLast
+{
+    temp=temp->next;
+}
+
+while(temp->next->next!=NULL) //temp->300   DeleteLast
+{
+    temp=temp->next;
+}
